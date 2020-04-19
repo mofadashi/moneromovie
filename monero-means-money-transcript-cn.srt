@@ -1,206 +1,206 @@
 ﻿1
 00:01:12,570 --> 00:01:14,210
-So I'm Daniel Kim.
+我是丹尼尔-金
 
 2
 00:01:14,590 --> 00:01:16,810
-I'm here from Boston, USA
+我来自美国波士顿
 
 3
 00:01:17,890 --> 00:01:21,830
-and I'm a full-time consultant in cryptocurrency.
+我是一个全职数字货币顾问
 
 4
 00:01:22,270 --> 00:01:24,870
-I help to bridge two separate worlds:
+我是连接两个世界的桥梁
 
 5
 00:01:24,970 --> 00:01:31,590
-one is that of nonprofit, OG, open-source
+一个是非营利，传统的，开源的
 
 6
 00:01:31,710 --> 00:01:35,370
-non-commercial, grassroots cryptocurrency --
+非商业性质的，基层自发的数字货币
 
 7
 00:01:35,370 --> 00:01:37,850
-and the traditional finance world.
+另一个是传统的金融世界
 
 8
 00:01:37,850 --> 00:01:42,970
-That includes institutional investors, trusts and
+包含了机构投资者，信托和
 
 9
 00:01:44,850 --> 00:01:48,350
-basically people who are interested in cryptocurrency but need
+对数字货币感兴趣的人
 
 10
 00:01:48,350 --> 00:01:50,790
-somebody who can speak their language
+这些人需要来自跟他们站在同一立场，
 
 11
 00:01:50,790 --> 00:01:52,910
-and has walked in their shoes.
+了解他们的专业人士的帮助
 
 12
 00:01:53,390 --> 00:01:58,190
-Another one of my past jobs -- I was a head of research for a equity hedge fund.
+我之前的职位是股票对冲基金研究主管
 
 13
 00:01:58,190 --> 00:02:02,710
-We managed about 1 billion USD in equity markets.
+我们管理者价值一亿美元的股票市场
 
 14
 00:02:02,710 --> 00:02:06,210
-So that's what I did for several years before going off on my own
+我做了几年之后辞职单干
 
 15
 00:02:06,310 --> 00:02:08,970
-because I decided that
+因为我觉得
 
 16
 00:02:09,610 --> 00:02:11,930
-in one's lifetime there are
+人的一生
 
 17
 00:02:12,090 --> 00:02:14,670
-maybe only a few fundamentally
+仅有几次能从根本上
 
 18
 00:02:15,030 --> 00:02:18,610
-important breakthroughs that come around.
+突破自己的重要机会
 
 19
 00:02:19,110 --> 00:02:22,950
-I'm old enough to have been a grad student --
+我是一个博士生
 
 20
 00:02:22,950 --> 00:02:26,810
-I was working on my PhD at Harvard during the dot-com bubble
+在互联网泡沫期间攻读哈佛大学的博士
 
 21
 00:02:28,870 --> 00:02:31,130
-and I remember thinking,
+我记得当时我想的是
 
 22
 00:02:31,750 --> 00:02:32,570
-"Google, wow!"
+“谷歌，哇哦！”
 
 23
 00:02:32,570 --> 00:02:35,450
-"This is something that people are talking about investing in."
+“当时的人们都考虑要投资谷歌”
 
 24
 00:02:36,090 --> 00:02:38,730
-And I thought that it was
+我觉得
 
 25
 00:02:39,070 --> 00:02:40,550
-kind of a silly idea
+投资一个只有20多个网站的谷歌
 
 26
 00:02:40,690 --> 00:02:45,310
-to have such a thing because there were only like 20 websites in existence.
+是个挺愚蠢的决定
 
 27
 00:02:45,910 --> 00:02:48,490
-Why would you need to go type your search into Google --
+为什么非要用谷歌搜索呢 --
 
 28
 00:02:48,490 --> 00:02:51,110
-there's only like 20 websites worth going to.
+一共也就20多个网站
 
 29
 00:02:51,230 --> 00:02:53,770
-Like, you know them all, they're all in your entire book.
+你早就知道这些网站了，
 
 30
 00:02:54,150 --> 00:02:56,630
-Basically everywhere worth going on the internet
+值得一看的网站也就是
 
 31
 00:02:56,630 --> 00:03:01,370
-was like 20 bookmarks in your NCSA browser.
+你收藏夹里的那20几个了
 
 32
 00:03:03,090 --> 00:03:04,870
-That was a failure of imagination,
+这是非常错误的想法
 
 33
 00:03:04,990 --> 00:03:09,470
-and I think that when Bitcoin and blockchain came around,
+当比特币跟数据块链出现的时候
 
 34
 00:03:09,470 --> 00:03:12,190
-after really thinking about it
+在认真考虑
 
 35
 00:03:12,290 --> 00:03:13,690
-and studying it for a long time,
+学习了一段时间之后
 
 36
 00:03:13,870 --> 00:03:16,910
-I decided to go full time into it.
+我决定把所有时间投入进来
 
 37
 00:03:17,810 --> 00:03:20,110
-I'm going to talk about Fiat currencies
+下面我想谈一下由中央银行控制的
 
 38
 00:03:20,150 --> 00:03:22,470
-which are central bank controlled currencies
+法定货币
 
 39
 00:03:22,590 --> 00:03:23,450
-and then Bitcoin
+与比特币
 
 40
 00:03:23,530 --> 00:03:25,290
-because Bitcoin was the first.
+比特币是第一个数字货币
 
 41
 00:03:25,830 --> 00:03:29,250
-It's been 11 years now -- the Bitcoin white paper came out
+从比特币白皮书出现到现在已经11年了
 
 42
 00:03:29,310 --> 00:03:31,450
-Halloween 2008,
+2008年的万圣节
 
 43
 00:03:31,830 --> 00:03:36,490
-and Monero is sort of like a little brother to Bitcoin
+门罗币像是比特币的小弟弟一样
 
 44
 00:03:36,570 --> 00:03:39,510
-and it's about almost 6 years old now.
+从出现到现在也有6年了
 
 45
 00:03:39,670 --> 00:03:42,170
-And there are four different aspects that I'm going to talk about
+我今天的演讲由四个部分组成
 
 46
 00:03:42,270 --> 00:03:45,230
-for these three different kinds of value.
+探讨一下这三种货币
 
 47
 00:03:45,430 --> 00:03:46,710
-One is scarcity
+其中一点是稀缺性
 
 48
 00:03:46,770 --> 00:03:48,370
-because after all
+毕竟
 
 49
 00:03:48,750 --> 00:03:51,210
-for something to be money it needs to be scarce.
+物以稀为贵
 
 50
 00:03:51,910 --> 00:03:54,710
-So how do people handle this problem of
+所以人们是如何解决
 
 51
 00:03:54,850 --> 00:03:56,450
-creating digital scarcity?
+电子货币的稀缺性的呢？
 
 52
 00:03:56,610 --> 00:03:59,370
