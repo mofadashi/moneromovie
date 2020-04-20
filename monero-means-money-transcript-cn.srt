@@ -148,7 +148,7 @@
 
 38
 00:03:20,150 --> 00:03:22,470
-法定货币
+法定通货
 
 39
 00:03:22,590 --> 00:03:23,450
@@ -204,188 +204,187 @@
 
 52
 00:03:56,610 --> 00:03:59,370
-There are very different methods in Fiat,
+在处理稀缺性上法定货币，
 
 53
 00:03:59,370 --> 00:04:01,410
-Bitcoin and Monero.
+比特币跟门罗币使用的方法不同
 
 54
 00:04:01,730 --> 00:04:04,250
-Next I'll talk about fungibility and privacy.
+接下来我要讨论一下可替代性和隐私
 
 55
 00:04:05,390 --> 00:04:07,970
-Since this the
+今年CDC
 
 56
 00:04:08,890 --> 00:04:10,550
-CDC [Critical Decentralization Cluster] and the
+ [重要分散集群] 的
 
 57
 00:04:11,130 --> 00:04:13,610
-motto this year is "respect my privacy"
+座右铭是“尊重我的隐私”
 
 58
 00:04:13,810 --> 00:04:16,070
-I think I shouldn't have to
+我认为我不需要
 
 59
 00:04:16,250 --> 00:04:18,410
-work too hard to convince everyone here that
+努力说服在座各位
 
 60
 00:04:18,550 --> 00:04:21,030
-financial privacy is a very important thing to have.
+金融隐私有多重要
 
 61
 00:04:22,210 --> 00:04:25,230
-Or maybe the opposite is easier to grasp --
+换一种说法更好理解--
 
 62
 00:04:25,350 --> 00:04:27,910
-(is that) a surveillance state
+监管状态
 
 63
 00:04:27,950 --> 00:04:31,230
-in which everybody's financial transactions are tracked
+也就是每个人的金融交易都被追踪
 
 64
 00:04:31,550 --> 00:04:34,130
-and surveilled and looked at
+监视与调查
 
 65
 00:04:34,330 --> 00:04:38,950
-is not open society that we want to be living in.
+这不是我们想要生活的社会
 
 66
 00:04:39,330 --> 00:04:40,370
-Next is Community.
+接下来是社区性
 
 67
 00:04:41,110 --> 00:04:42,890
-So each of these forms of money
+每一种货币
 
 68
 00:04:42,890 --> 00:04:44,970
-money really requires a community.
+都需要社区
 
 69
 00:04:44,970 --> 00:04:46,970
-It needs a group of people who
+需要有一群人
 
 70
 00:04:47,030 --> 00:04:47,970
-all believe that
+相信
 
 71
 00:04:47,970 --> 00:04:50,130
-the thing that is money, is money.
+这个货币是有价值的钱
 
 72
 00:04:50,130 --> 00:04:51,570
-If you don't have the community,
+你如果没有社区
 
 73
 00:04:51,750 --> 00:04:52,750
-you don't have money.
+也就没有了钱
 
 74
 00:04:53,630 --> 00:04:55,290
-And again, in Fiat, Bitcoin and Monero
+法定通货，比特币，门罗币的背后
 
 75
 00:04:55,290 --> 00:05:00,850
-there are different communities that have come up to support money.
+是由不同的社区支持的
 
 76
 00:05:01,010 --> 00:05:02,770
-And finally is correlation.
+最后是相关性
 
 77
 00:05:03,170 --> 00:05:05,370
-The correlation part
+相关性这块
 
 78
 00:05:05,450 --> 00:05:07,390
-in my talk for here
+我要讲的是
 
 79
 00:05:07,470 --> 00:05:10,930
-since the CDC is a kind of
+CDC是一种
 
 80
 00:05:11,090 --> 00:05:13,890
-cooperative effort between Monero and some
+门罗币与其他加密经济群组
 
 81
 00:05:14,090 --> 00:05:15,770
-crypto economic groups.
+的合作
 
 82
 00:05:16,550 --> 00:05:17,970
-For this talk I
+这次演讲
 
 83
 00:05:18,070 --> 00:05:21,470
-upped the amount of content in the
+我内容着重点是
 
 84
 00:05:22,310 --> 00:05:23,730
-finance and economics part.
+金融与经济
 
 85
 00:05:23,870 --> 00:05:25,410
-Kind of putting on my hedge fund hat
+这又回到了对冲基金上
 
 86
 00:05:25,470 --> 00:05:32,450
-and looking at Fiat, Bitcoin and Monero as investments.
+把法定通货，比特币与门罗比当作投资
 
 87
 00:05:33,350 --> 00:05:37,610
-What is the situation for scarcity?
-Why do we even need cryptocurrency?
+稀缺性到底是何情况？我们为什么需要加密货币？
 
 88
 00:05:39,010 --> 00:05:42,270
-Let's look at the everyday money that we use.
+我们来看看我们每天使用的货币
 
 89
 00:05:42,370 --> 00:05:44,030
-There's the US dollar,
+这个是美元
 
 90
 00:05:44,810 --> 00:05:46,110
-the Chinese yuan,
+人民币
 
 91
 00:05:46,230 --> 00:05:48,110
-the Euro and the Swiss franc.
+欧元，瑞士法郎
 
 92
 00:05:48,350 --> 00:05:50,410
-And what I'm showing here is
+我展示的是
 
 93
 00:05:50,650 --> 00:05:53,270
-official government statistics as to
+来自政府官方的
 
 94
 00:05:53,430 --> 00:05:56,210
-the amount of money in circulation.
+货币流通数量的统计
 
 95
 00:05:56,310 --> 00:05:58,830
-This is M1, which is
+这是M1
 
 96
 00:05:59,130 --> 00:06:00,510
-paper money, currency
+也就是纸币，货币
 
 97
 00:06:00,530 --> 00:06:03,510
-and also checking accounts and savings accounts.
+也是储蓄账户跟支票账户
 
 98
 00:06:03,690 --> 00:06:06,830
