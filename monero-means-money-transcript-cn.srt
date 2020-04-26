@@ -1188,163 +1188,163 @@ CDC是一种
 
 298
 00:15:52,530 --> 00:15:54,670
-this is a form of technical hedging.
+这是一种技术性对冲形式
 
 299
 00:15:54,670 --> 00:15:58,470
-In Bitcoin the secp256k1 elliptical curve is used
+比特币的椭圆曲线值是secp256K1
 
 300
 00:15:58,470 --> 00:16:01,730
-whereas in Monero it's ed25519.
+而门罗币是 ed25519
 
 301
 00:16:02,030 --> 00:16:07,010
-Both Bitcoin and Monero, as I mentioned before, require a private key.
+我之前提到了比特币与门罗币都需要密匙
 
 302
 00:16:07,350 --> 00:16:11,590
-Spending the cryptocurrency requires that you know a number
+当我们要花加密货币的时候
 
 303
 00:16:11,590 --> 00:16:13,030
-and that's the private key.
+我们需要一组数字，也就是密匙
 
 304
 00:16:13,030 --> 00:16:15,490
-That's true in both Bitcoin and Monero.
+比特币与门罗币都是这样的
 
 305
 00:16:15,990 --> 00:16:18,290
-Where we start to differ is that
+不同点是
 
 306
 00:16:18,370 --> 00:16:20,930
-Monero also has what's called a view key.
+门罗币还有可视匙
 
 307
 00:16:20,930 --> 00:16:23,210
-The view key is another private key
+这是另外一个密匙
 
 308
 00:16:23,210 --> 00:16:27,370
-which is actually as kind of a subset of the spend key.
+是属于花费匙的一种
 
 309
 00:16:27,370 --> 00:16:30,510
-The view key is what is needed to decrypt
+可视匙是用来解码
 
 310
 00:16:30,510 --> 00:16:35,470
-the transactions on the blockchain that you personally are involved with.
+你个人区块链交易的
 
 311
 00:16:36,430 --> 00:16:37,610
-If you have the view key
+如果你有可视匙
 
 312
 00:16:37,610 --> 00:16:41,310
-you can see what transactions you were involved in on the blockchain.
+你可以看到你涉及的区块链的交易
 
 313
 00:16:41,370 --> 00:16:44,030
-Everything else remains encrypted.
+剩下的仍是加密的
 
 314
 00:16:45,090 --> 00:16:46,770
-The address spaces is different,
+地址空间也有所不同
 
 315
 00:16:46,770 --> 00:16:51,170
-in Bitcoin it's 10 to the 60th, in Monero it's 10 to the 76th.
+比特币是10的60次方，门罗币是10的76次方
 
 316
 00:16:51,170 --> 00:16:54,950
-There are more addresses available in Monero,
+门罗币的地址空间更多
 
 317
 00:16:55,030 --> 00:16:57,610
-which means if you're worried about the birthday problem --
+意味着如果你担心生日问题 --
 
 318
 00:16:57,610 --> 00:17:00,010
-the birthday problem is the problem in which
+生日问题是
 
 319
 00:17:00,010 --> 00:17:02,010
-if you have a group of 30 people,
+假设有30个人
 
 320
 00:17:02,010 --> 00:17:07,670
-chances are much higher than you would expect that 2 people out of those 30 have the same birthday.
+30个人中两个人生日是同一天的概率要比你想象的高很多
 
 321
 00:17:08,010 --> 00:17:12,250
-If you extend this now to the problem of picking a random number
+现在把这个问题扩展到随机选个数字
 
 322
 00:17:12,250 --> 00:17:14,270
-and calling it your own for
+把它作为
 
 323
 00:17:14,270 --> 00:17:18,710
-a cryptocurrency account, you have the same problem.
+加密账户，你会面临相同的问题
 
 324
 00:17:18,970 --> 00:17:20,390
-There's no guarantee that
+没办法保证
 
 325
 00:17:20,390 --> 00:17:23,570
-the random number that you picked for your cryptocurrency account
+你随机选择的加密账户
 
 326
 00:17:23,570 --> 00:17:26,730
-is not going to subsequently be picked by me.
+不会被我选择了
 
 327
 00:17:27,070 --> 00:17:28,530
-That's the birthday problem and
+这就是生日问题
 
 328
 00:17:29,230 --> 00:17:33,950
-the birthday problem is less of a concern the more addresses there are.
+如果我们有足够的空间，生日问题就不用过多担心
 
 329
 00:17:35,010 --> 00:17:38,590
-The emission deceleration is another difference between Bitcoin and Monero.
+发行减缓是另一个比特币与门罗币之间的区别
 
 330
 00:17:38,590 --> 00:17:40,270
-In Bitcoin it's step-wise.
+比特币是逐步减缓
 
 331
 00:17:40,270 --> 00:17:42,550
-You might have heard of this thing called "the halvening".
+你可能听说过“减半”
 
 332
 00:17:42,550 --> 00:17:45,470
-This is: every 4 years, in Bitcoin,
+比特币产量每四年
 
 333
 00:17:45,470 --> 00:17:48,770
-the number of Bitcoins that gets rewarded to miners
+挖矿奖励就会减半
 
 334
 00:17:48,770 --> 00:17:53,590
-as a reward for finding a page in the blockchain gets cut in half.
+也就是在区块链里找到一页的奖励减半
 
 335
 00:17:53,650 --> 00:17:55,870
-Which means that on every miners calendar
+每个矿工在他们的日历里
 
 336
 00:17:55,870 --> 00:17:58,130
-there's a date circled in red that
+都有一个红色的日期
 
 337
 00:17:58,470 --> 00:18:00,570
-their income is going to get cut in half.
+z
 
 338
 00:18:00,630 --> 00:18:03,230
