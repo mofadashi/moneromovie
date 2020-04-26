@@ -964,227 +964,227 @@ CDC是一种
 
 242
 00:13:01,010 --> 00:13:03,430
-Who sent what to who and how much
+谁像谁交易了多少钱
 
 243
 00:13:03,510 --> 00:13:07,070
-and each block is just a record of that.
+是每个块包含的内容
 
 244
 00:13:07,130 --> 00:13:09,950
-How do we know that that's not going to get corrupted over time?
+我们如何知道在此期间没有损坏呢？
 
 245
 00:13:09,970 --> 00:13:12,490
-Because, as we all know, there's bit rot.
+众所周知，比特衰减
 
 246
 00:13:12,490 --> 00:13:14,650
-There can be corruption,
+会造成损坏
 
 247
 00:13:14,650 --> 00:13:17,450
-there could be some
+也可能
 
 248
 00:13:20,890 --> 00:13:23,670
-malfeasance going on with the state of the database.
+有些对数据状态的错误操作
 
 249
 00:13:24,170 --> 00:13:26,990
-The database is maintained because each block
+数据库是由
 
 250
 00:13:26,990 --> 00:13:30,590
-has a small data field in it that the miner can change
+每个块里的矿工可改变的一小段数据段所维护的
 
 251
 00:13:30,590 --> 00:13:32,070
-that's called the nonce.
+也称作随机数
 
 252
 00:13:32,070 --> 00:13:34,070
-And each miner
+每个矿工
 
 253
 00:13:34,230 --> 00:13:40,070
-randomly changes the nonce so that the hash of the block is lower than a number,
+可以随机改变随机数，块的散列值低于一个数字
 
 254
 00:13:40,070 --> 00:13:41,290
-called the difficulty.
+这叫做难点
 
 255
 00:13:41,310 --> 00:13:44,350
-Usually when we talk about hash functions
+通常情况下，当我们提到哈希函数时
 
 256
 00:13:44,430 --> 00:13:47,550
-we don't care about the actual value of the hash function.
+我们不关心哈希函数的实际价值
 
 257
 00:13:47,550 --> 00:13:50,690
-We just care that the hash matches some other hash.
+我们只在乎哈希函数是否匹配
 
 258
 00:13:50,690 --> 00:13:53,070
-Like if you're checking for file integrity,
+就好像我们检查文件完整性时
 
 259
 00:13:53,070 --> 00:13:56,230
-then you would take the hash of the file that you downloaded
+我们会把下载的文件的散列表
 
 260
 00:13:56,330 --> 00:13:58,950
-and compare that with the hash of the file that you're looking for
+与你想找的文件的散列
 
 261
 00:13:59,010 --> 00:14:00,690
-and you compare those.
+表进行比较
 
 262
 00:14:00,690 --> 00:14:04,030
-In this case, we're actually caring about the number of the hash.
+在这种情况下，我们关心的是散列表的数字
 
 263
 00:14:04,070 --> 00:14:06,190
-How small, how large is that number
+数字的大小
 
 264
 00:14:06,250 --> 00:14:11,950
-and the difficulty is a number that must be
+难点是
 
 265
 00:14:12,190 --> 00:14:13,670
-satisfied by each block.
+数字必须满足每个块
 
 266
 00:14:13,670 --> 00:14:14,250
-In other words,
+换句话说，
 
 267
 00:14:14,250 --> 00:14:17,390
-the hash of each block needs to be lower than the difficulty.
+每个块的散列表值要低于难点
 
 268
 00:14:19,130 --> 00:14:21,330
-To make a real world analogy of this,
+用现实类比一下
 
 269
 00:14:21,330 --> 00:14:23,970
-imagine that you have (an) accounting book
+想象一下你有一本会计账簿
 
 270
 00:14:23,970 --> 00:14:29,470
-and each page of the accounting book has 10 minutes worth of transactions on it.
+每一页包含10分钟内发生的的交易
 
 271
 00:14:29,570 --> 00:14:31,790
-You want to make a way to make sure that
+你要想办法
 
 272
 00:14:31,830 --> 00:14:35,250
-each page is really rare in some way.
+保证每一页交易的稀缺性
 
 273
 00:14:35,570 --> 00:14:37,950
-One way you could do this is you could say
+其中一种办法是
 
 274
 00:14:38,050 --> 00:14:45,670
-the mass of every page of this accounting book has to be an even multiple of 1 million atoms.
+会计账簿的每一页质量要达到100万原子的寄倍数
 
 275
 00:14:46,630 --> 00:14:49,110
-Each accountant is going to be
+每个会计师
 
 276
 00:14:49,150 --> 00:14:50,790
-kind of touching the paper,
+会接触
 
 277
 00:14:50,790 --> 00:14:52,890
-rubbing it, erasing little bits
+修改这些纸张
 
 278
 00:14:52,970 --> 00:14:56,870
-because at that level you're taking away or adding
+在这个级别你可以增加或减少
 
 279
 00:14:56,950 --> 00:14:58,570
-trillions and trillions of atoms
+万亿次的原子
 
 280
 00:14:58,570 --> 00:15:01,010
-so it's going to be a random number whether
+纸的质量是一个随机数字
 
 281
 00:15:03,170 --> 00:15:08,210
-your page is actually a exact multiple of a million atoms.
+无论原子的数量是多少
 
 282
 00:15:09,310 --> 00:15:11,370
-Once that's found,
+很不容易
 
 283
 00:15:11,370 --> 00:15:13,350
-that's a very rare page.
+找到这样的一张纸
 
 284
 00:15:13,350 --> 00:15:15,730
-It's a rare page because it has an
+因为它是
 
 285
 00:15:15,730 --> 00:15:18,690
-exact multiple of 1 million atoms to it
+包含了精确的一百万倍数的原子
 
 286
 00:15:18,790 --> 00:15:21,370
-and because it's now a digital representation,
+而且是数字表象
 
 287
 00:15:21,370 --> 00:15:23,410
-you can copy that exactly.
+你可以精准的复制它
 
 288
 00:15:23,530 --> 00:15:26,170
-Now you have a chain of blocks,
+现在你有了连锁的块
 
 289
 00:15:26,190 --> 00:15:30,070
-each one of these has this rare attribute
+每一个快都有稀有属性
 
 290
 00:15:30,390 --> 00:15:34,630
-and the blockchain links them all together.
+区块链把他们连接在一起
 
 291
 00:15:36,610 --> 00:15:38,550
-Scarcity in Bitcoin and Monero --
+比特币与门罗币的稀有性 --
 
 292
 00:15:38,630 --> 00:15:40,550
-they both have an original code base.
+在于它们都有原代码库
 
 293
 00:15:41,010 --> 00:15:43,510
-There are many, many projects in cryptocurrency in which
+在很多很多加密货币项目中
 
 294
 00:15:43,510 --> 00:15:46,410
-Bitcoin was simply forked and modified a little bit,
+比特币很容易分离，修改
 
 295
 00:15:46,410 --> 00:15:47,670
-(but) that's not the case in Monero.
+但门罗币不是这样的
 
 296
 00:15:47,670 --> 00:15:49,930
-It was written from scratch.
+门罗币是从头开始编写的
 
 297
 00:15:50,350 --> 00:15:52,250
-The elliptic curves used are different;
+他们的椭圆曲线是不同的
 
 298
 00:15:52,530 --> 00:15:54,670
