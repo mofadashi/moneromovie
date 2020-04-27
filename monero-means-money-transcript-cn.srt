@@ -220,7 +220,7 @@
 
 56
 00:04:08,890 --> 00:04:10,550
- [重要分散集群] 的
+[重要分散集群] 的
 
 57
 00:04:11,130 --> 00:04:13,610
@@ -1316,7 +1316,7 @@ CDC是一种
 
 330
 00:17:38,590 --> 00:17:40,270
-比特币是逐步减缓
+比特币是阶梯式减缓
 
 331
 00:17:40,270 --> 00:17:42,550
@@ -1344,299 +1344,299 @@ CDC是一种
 
 337
 00:17:58,470 --> 00:18:00,570
-z
+在那天，他们的收入减半
 
 338
 00:18:00,630 --> 00:18:03,230
-And that introduces a bunch of
+这就给
 
 339
 00:18:03,230 --> 00:18:06,630
-needless drama, really, in mining.
+挖矿产业带来了很多不必要的戏剧性事件
 
 340
 00:18:06,730 --> 00:18:12,630
-In Monero, we avoid this by having a continuously decreasing emission.
+门罗币采取的是逐渐减缓的方式
 
 341
-00:18:13,230 --> 00:18:15,470
-Now another difference is in
+00:18:13,470 --> 00:18:15,470
+另一个不同点是
 
 342
 00:18:15,470 --> 00:18:19,010
-what is the emission rate of coins in the far future.
+未来的货币发行量
 
 343
 00:18:19,210 --> 00:18:23,210
-In Bitcoin, the block reward eventually goes to zero
+比特币的奖励最后会趋近于0
 
 344
 00:18:23,210 --> 00:18:29,470
-and they anticipate using transaction fees to make up the difference.
+他们预计用转账费用来弥补缺失
 
 345
 00:18:29,490 --> 00:18:34,570
-In Monero, there we have a concern that we want to always be assured that
+在门罗币，我们所关心的是：我们想要
 
 346
 00:18:34,570 --> 00:18:38,930
-miners will have incentive to keep working for the system.
+矿工持续性地为系统工作
 
 347
 00:18:38,930 --> 00:18:41,630
-And (in) Monero we have what's called a tail emission
+在门罗币里有一个叫做尾部发行
 
 348
 00:18:41,630 --> 00:18:44,730
-which works out to be 0.6 Monero per block
+每个块永远都会有
 
 349
 00:18:44,730 --> 00:18:46,570
-that goes on in perpetuity.
+0.6个门罗币
 
 350
 00:18:46,570 --> 00:18:51,370
-But that future money basically gets used to pay miners
+这笔钱是付给矿工的
 
 351
 00:18:51,370 --> 00:18:54,710
-to continue to provide security for the network.
+来维持网络安全
 
 352
 00:18:55,510 --> 00:18:58,470
-What's the far future inflation rate then?
+长期的通货膨胀率是什么呢？
 
 353
 00:18:58,470 --> 00:19:01,890
-In Bitcoin, they can say it's exactly zero.
+比特币基本上是0
 
 354
 00:19:01,890 --> 00:19:06,830
-In Bitcoin they're fond of saying there's only ever going to be 21 million Bitcoins created
+关于比特币人们喜欢说，只会有2100百万的比特币被挖掘出来
 
 355
 00:19:06,830 --> 00:19:09,570
-and that's an easy thing for people to understand.
+人们很容易理解
 
 356
 00:19:10,030 --> 00:19:14,170
-But in Monero, we have constant linear inflation --
+门罗币是连续的线性增长--
 
 357
 00:19:14,650 --> 00:19:18,750
-but it's not really correct to say that this is "infinite supply" as
+但实际上并不是
 
 358
 00:19:18,750 --> 00:19:21,270
-that's what gets bandied about.
+像说的那样无限增长的
 
 359
 00:19:21,270 --> 00:19:24,290
-Because if you look at the inflation rate, in Monero,
+如果你仔细看门罗币的通货膨胀率
 
 360
 00:19:24,290 --> 00:19:27,110
-it asymptotically goes to zero.
+表面上是无限接近于0
 
 361
 00:19:27,270 --> 00:19:29,790
-If you look at any macroeconomic theory,
+如果你观察任何宏观经济理论
 
 362
 00:19:30,130 --> 00:19:32,690
-what the relevant variable is
+相关变量
 
 363
 00:19:32,690 --> 00:19:34,610
-is the inflation rate.
+是通货膨胀率
 
 364
 00:19:34,690 --> 00:19:36,330
-Nobody really cares that
+没人在意
 
 365
 00:19:36,330 --> 00:19:41,430
-the nominal amount of US dollars is going up by whatever trillions of dollars per year.
+名义上美元的数量会不会百亿增长
 
 366
 00:19:41,430 --> 00:19:43,430
-It's the percentage that matters
+重要的是百分比
 
 367
 00:19:43,430 --> 00:19:46,090
-and in Monero that percentage is already low and
+门罗币在这方面百分比很低
 
 368
 00:19:46,090 --> 00:19:48,330
-it'll continue getting lower.
+还在持续降低
 
 369
 00:19:48,990 --> 00:19:51,010
-Some curves to show what I'm talking about --
+这个曲线就是我刚才所说的 --
 
 370
 00:19:51,010 --> 00:19:53,050
-These are supply emission curves showing
+这些供给发行曲线显示
 
 371
 00:19:53,050 --> 00:19:58,330
-how many coins of each type exist as a function of time.
+每种货币的存在数量与时间的函数关系
 
 372
 00:19:58,670 --> 00:20:02,590
-You can see that Monero had a later start here
+你可以看到门罗币开始时间较晚
 
 373
 00:20:02,590 --> 00:20:04,490
-and it has a tail emission.
+有尾部增长
 
 374
 00:20:04,490 --> 00:20:07,830
-This tail emission is this constant linear slope.
+尾部增长有连续的线性斜率
 
 375
 00:20:08,590 --> 00:20:10,490
-The reason for this slope, again, is that
+造成斜率的原因是
 
 376
 00:20:10,490 --> 00:20:16,250
-the new coins that get emitted are being rewarded to miners who helped secure the network.
+新货币增长是给予矿工维护网络安全的奖励
 
 377
 00:20:16,310 --> 00:20:21,090
-Whereas in Bitcoin, they have an impending problem to deal with.
+然而在比特币上有一个悬而未决的问题
 
 378
 00:20:21,090 --> 00:20:24,370
-And that their coin emission is coming up to this 21 million mark,
+比特币的增长马上要达到2100万这个标记点
 
 379
 00:20:24,370 --> 00:20:26,090
-it's going to go basically to zero.
+马上就达到0增加
 
 380
 00:20:26,090 --> 00:20:30,110
-Then there are some papers out there that have
+有些文章提出
 
 381
 00:20:30,110 --> 00:20:35,190
-proposed that the security of the network might be in jeopardy at that point.
+网络安全在那点会陷入危险
 
 382
 00:20:35,290 --> 00:20:37,970
-What if we take the first derivative of this curve --
+如果我们算一下这个的曲线导数--
 
 383
 00:20:37,970 --> 00:20:43,450
-so, we look at how much more supply is there in this year versus last year.
+我们对比一下去年，今年的供应增加了多少呢
 
 384
 00:20:43,450 --> 00:20:45,250
-In other words, what's the inflation rate?
+换句话说，通货膨胀率是多少?
 
 385
 00:20:45,250 --> 00:20:47,570
-Here's what you see.
+看这里
 
 386
 00:20:48,990 --> 00:20:50,930
-I'm comparing several different assets here.
+我在这里对比了几点不同
 
 387
 00:20:50,930 --> 00:20:52,930
-This is the inflation rate of gold.
+这个是金子的通货膨胀率
 
 388
 00:20:52,930 --> 00:20:55,490
-We usually don't think of gold is inflating
+我们以为金子是不会通货膨胀的
 
 389
 00:20:55,490 --> 00:20:57,310
-but of course there are miners --
+不过因为有矿工--
 
 390
 00:20:57,310 --> 00:21:00,570
-there are actual physical miners digging in the ground and
+这里说的是真正的矿工在挖掘土地
 
 391
 00:21:00,890 --> 00:21:05,810
-coming up with gold chunks to add to the world's supply of above-ground gold.
+挖出金块，使世界的黄金总数增加
 
 392
 00:21:06,090 --> 00:21:11,030
-That turns out to be about 1.5% per year of inflation in gold.
+导致每年黄金的通货膨胀比例在1.5%左右
 
 393
 00:21:11,030 --> 00:21:13,710
-So if you think of gold as being sound money
+如果你把黄金当作货币的话
 
 394
 00:21:13,710 --> 00:21:20,370
-then that 1.5% inflation rate is going to be sort of a line in the sand.
+通货膨胀率不能高于1.5%
 
 395
 00:21:20,410 --> 00:21:23,170
-As you can see - both Bitcoin and Monero
+从比特币跟门罗币中我们可以看到
 
 396
 00:21:23,170 --> 00:21:26,030
-this dotted blue line is showing where we are right now.
+这个点状的蓝线显示现在
 
 397
 00:21:26,030 --> 00:21:30,150
-We're coming to a very interesting point in cryptocurrency history
+我们目前处在加密货币历史上一个很有趣的时间点
 
 398
 00:21:30,150 --> 00:21:32,750
-in that, up until now
+到目前为止
 
 399
 00:21:32,750 --> 00:21:36,230
-there's been a lot of emission happening.
+有很多的货币发行
 
 400
 00:21:36,690 --> 00:21:38,950
-In order to get these coins out there
+为了发行这些货币
 
 401
 00:21:38,950 --> 00:21:42,190
-the block rewards have been relatively high
+块的奖励非常高
 
 402
 00:21:42,190 --> 00:21:45,550
-but we're now coming up on a new kind of era of scarcity,
+我们现在面临新一种稀缺性
 
 403
 00:21:45,550 --> 00:21:48,470
-if you look at this to the right of here.
+你看一下这个右边
 
 404
 00:21:48,470 --> 00:21:54,270
-And in fact, the inflation rate of Monero is going to be lower than that of Bitcoin
+事实上门罗币的通货膨胀率在未来的6年里
 
 405
 00:21:54,270 --> 00:21:58,250
-for the next 6 years, until 2025.
+要比比特币的低（直到2025年）
 
 406
 00:21:58,250 --> 00:22:01,410
-Then there's going to be a 4 year period when they're about the same
+有四年的时间他们膨胀率大概相同
 
 407
 00:22:01,410 --> 00:22:04,670
-and then, starting in 2029, the
+从2029年起
 
 408
 00:22:04,670 --> 00:22:09,030
-inflation rate of Bitcoin will once again go below Monero.
+比特币的通货膨胀率要低于门罗币
 
 409
 00:22:09,030 --> 00:22:12,190
-But then, again, this comes at with a question mark:
+这里就有疑问了
 
 410
 00:22:12,190 --> 00:22:17,390
-how are those miners going to be paid, to be incentivized to support the network?
+矿工们如何通过维护网络得到报酬呢？
 
 411
 00:22:17,390 --> 00:22:20,790
