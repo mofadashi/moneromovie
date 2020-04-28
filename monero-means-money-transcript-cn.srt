@@ -1640,175 +1640,175 @@ CDC是一种
 
 411
 00:22:17,390 --> 00:22:20,790
-Since that is a crucial feature of Nakamoto consensus,
+这个是中本聪共识中的重要特点
 
 412
 00:22:20,790 --> 00:22:25,450
-that game theoretically, all of the miners are incentivized to be honest
+根据博弈论，所有的矿工会因为诚实而得到奖励
 
 413
 00:22:25,450 --> 00:22:29,570
-and not to try to game the system for their own greed.
+而不是因为贪婪而破坏游戏规则
 
 414
 00:22:31,390 --> 00:22:34,190
-There's a form of unwanted scarcity and that's mining hardware.
+因为挖矿工具导致的稀缺性是我们不想看到的
 
 415
 00:22:34,190 --> 00:22:38,490
-And this is something that has been a big issue in Monero.
+门罗币也有这方面的问题
 
 416
 00:22:39,130 --> 00:22:43,110
-In the Bitcoin white paper, Nakamoto wrote "one CPU, one vote"
+在比特币的白皮书中，中本聪写到一个中央处理器一票
 
 417
 00:22:43,110 --> 00:22:46,670
-and that idea is that the reward that a miner gets
+这也就意味着矿工得到的奖励
 
 418
 00:22:46,670 --> 00:22:49,410
-should be proportional to their effort.
+要与他们的付出成正比
 
 419
 00:22:49,410 --> 00:22:51,750
-It should be proportional to the expense
+也应该与矿工挖矿时的
 
 420
 00:22:51,750 --> 00:22:54,650
-that the miner incurred in mining.
+花费成正比
 
 421
 00:22:55,910 --> 00:22:58,910
-In other words, there should ideally be a linear function
+话句话说，理论上矿工的花费与所得
 
 422
 00:22:58,910 --> 00:23:03,390
-between the miners expense and the miners reward.
+应该是线性函数关系
 
 423
 00:23:03,470 --> 00:23:07,430
-Now, unfortunately, economies of scale in silicon manufacturing
+不幸的是规模经济下硅的生产
 
 424
 00:23:07,430 --> 00:23:09,450
-have destroyed this linear relationship.
+破坏了线性关系
 
 425
 00:23:09,590 --> 00:23:13,370
-In other words, if you have about 25 million dollars
+换句话说，如果你有2500万美金
 
 426
 00:23:13,370 --> 00:23:17,230
-to spend on a new fabrication facility in Shenzhen,
+花在新开的深圳的加工设施上
 
 427
 00:23:17,230 --> 00:23:22,850
-then you can turn out your own silicon chips that do nothing but
+你可以自己做硅芯片
 
 428
 00:23:23,470 --> 00:23:25,870
-do the Bitcoin proof-of-work.
+只用来做比特币的“工作量证明”
 
 429
 00:23:25,870 --> 00:23:28,690
-These are ASICS, and
+有专门的集成电路
 
 430
 00:23:28,690 --> 00:23:32,430
-they've been on the network, on Bitcoin for several years now,
+已经用在网络与比特币上好几年了
 
 431
 00:23:32,430 --> 00:23:39,050
-to the point that at this point Bitcoin mining is basically a Chinese oligopoly.
+现在来说比特币的挖掘基本上是被中国垄断了
 
 432
 00:23:41,350 --> 00:23:44,390
-This brings up centralization concern.
+这带来了集中性相关的担心
 
 433
 00:23:44,390 --> 00:23:47,890
-It's not necessarily a problem that it's China that has all the mining.
+中国拥有所有的矿工并不需要担心
 
 434
 00:23:47,890 --> 00:23:49,950
-It's really more of a problem that
+真正的问题是
 
 435
 00:23:49,950 --> 00:23:52,590
-it's one certain area of the world that has
+这一个地区拥有全世界
 
 436
 00:23:52,590 --> 00:23:57,590
-basically control of all of the world's Bitcoin hash power.
+几乎有所的比特币控制权
 
 437
 00:23:57,890 --> 00:24:01,770
-There are further news items that are cause for concern,
+由于这个原因，出现了很多新闻
 
 438
 00:24:01,770 --> 00:24:05,510
-for example, the growing trade war between China and the West.
+比如的中国与西方国家不断发展的贸易战
 
 439
 00:24:05,910 --> 00:24:07,970
-There is a press article out that said
+有一篇新闻文章说
 
 440
 00:24:08,150 --> 00:24:10,930
-the Chinese government has recently decreed that
+中国政府近期颁布
 
 441
 00:24:10,930 --> 00:24:15,950
-only Chinese computer hardware is to be used in government offices
+在一年内实现
 
 442
 00:24:15,950 --> 00:24:17,610
-starting in like a year.
+政府办公只能用中国的电脑硬件
 
 443
 00:24:17,610 --> 00:24:21,690
-There's some deadline by which all of the Dells and the
+在有限期内戴尔
 
 444
 00:24:21,690 --> 00:24:25,690
-American companies' computers are to be kicked out,
+或其他美国公司的电脑会被踢出中国市场
 
 445
 00:24:25,690 --> 00:24:31,070
-so something similar could well happen for Chinese-manufactured Bitcoin ASICS.
+.同样的事情也发生在了中国比特币专用集成电路的加工厂
 
 446
 00:24:31,070 --> 00:24:35,270
-We kind of take for granted that there's a free flow of goods in the world
+我们认为世界上的商品是自由流动的
 
 447
 00:24:35,270 --> 00:24:40,670
-but what happens if not only does one part of the world control the manufacture
+如果只有一个地方不但控制整个世界的
 
 448
 00:24:40,670 --> 00:24:42,730
-of all of the crypto hash power
+所有加密散列的制造
 
 449
 00:24:42,730 --> 00:24:47,070
-but then is unable to even export it due to a trade war.
+而且因为贸易战的原因无法出口
 
 450
 00:24:48,090 --> 00:24:54,070
-In Monero we tried to take this decentralization question quite seriously
+在门罗币里，我们严肃的对待去中心化这个问题
 
 451
 00:24:55,090 --> 00:24:57,690
-and we've done some changes to the proof-of-work
+我们对工作量证明进行了一些改动
 
 452
 00:24:57,690 --> 00:25:00,190
-to support the little guy who's mining.
+来帮助采矿的这些人
 
 453
 00:25:00,190 --> 00:25:02,670
-That is, when Bitcoin started
+That is, when Bitcoin started也就是当比特币被发明出来的时候
 
 454
 00:25:02,670 --> 00:25:06,550
