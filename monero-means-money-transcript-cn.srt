@@ -1808,283 +1808,283 @@ CDC是一种
 
 453
 00:25:00,190 --> 00:25:02,670
-That is, when Bitcoin started也就是当比特币被发明出来的时候
+也就是当比特币被发明出来的时候
 
 454
 00:25:02,670 --> 00:25:06,550
-it was possible for just a regular person running
+作为一个普通人运行
 
 455
 00:25:06,550 --> 00:25:10,710
-the Bitcoin client on their computer to actually have a shot
+他们自己电脑上的比特币客户端
 
 456
 00:25:10,710 --> 00:25:12,770
-at getting a mining reward.
+来获得奖励是有可能的
 
 457
 00:25:12,770 --> 00:25:14,830
-Those days are long gone because now
+这样的日子一去不复返
 
 458
 00:25:14,830 --> 00:25:20,810
-the hash power is dominated by these massive farms of ASICS.
+因为现在散列的能力都被大型专用集成电路公司所控制
 
 459
 00:25:20,990 --> 00:25:25,530
-It's just hopeless for any little guy to try to mine Bitcoin.
+对其他个人来说挖掘到比特币没什么希望
 
 460
 00:25:26,310 --> 00:25:28,750
-In Monero, we're trying to change that
+在门罗币，我们希望改变这一状态
 
 461
 00:25:28,750 --> 00:25:31,090
-and the proof of work has been modified several times.
+工作量证明也被修改了好几次
 
 462
 00:25:31,290 --> 00:25:34,730
-Now, as of just last month,
+自上个月起
 
 463
 00:25:34,730 --> 00:25:37,030
-the proof of work in Monero is now RandomX
+现在门罗币的证明法是RandomX
 
 464
 00:25:37,030 --> 00:25:40,930
-which actually uses every single capability of a CPU
+实际上是使用中央处理器的每一个性能
 
 465
 00:25:40,930 --> 00:25:42,790
-in doing the proof of work.
+来确定工作量证明
 
 466
 00:25:42,790 --> 00:25:46,470
-There's a basically a random program that gets executed.
+基本上是随机执行一个程序
 
 467
 00:25:46,470 --> 00:25:51,550
-Each core of the processor needs 2 gigabytes of RAM to run well.
+每个核心处理器需要2个G的随机存取存储器（RAM）来运行
 
 468
 00:25:52,510 --> 00:25:56,150
-This was a design decision made to
+这个设计是为了
 
 469
 00:25:56,730 --> 00:25:59,950
-make it harder for botnets to control the network,
+增加僵尸网络控制整个网络的难度
 
 470
 00:25:59,950 --> 00:26:03,330
-because if your computer is infected with a botnet
+如果你的电脑染上僵尸病毒
 
 471
 00:26:04,690 --> 00:26:08,050
-and 14 out of your 16 gigabytes of RAM are being eaten up,
+你14个G的随机存取存储器（RAM）都会被耗尽
 
 472
 00:26:08,050 --> 00:26:10,190
-you're probably going to notice it.
+你就会注意到这点
 
 473
 00:26:10,190 --> 00:26:14,130
-It was deliberate that design decision in RandomX to use a
+使用RandomX这个设计是经过深思熟虑的
 
 474
 00:26:14,130 --> 00:26:19,810
-high required amount of RAM for processing.
+在运行时对随机存取存储器RAM)的要求很高
 
 475
 00:26:21,270 --> 00:26:22,890
-There's another source of scarcity
+这也是另一种稀缺性
 
 476
 00:26:22,890 --> 00:26:25,890
-that is not necessarily one that you want in a blockchain,
+你不想要区块链的稀缺
 
 477
 00:26:25,890 --> 00:26:28,070
-and that is access to layer one.
+也就是进入第一层
 
 478
 00:26:28,070 --> 00:26:32,430
-Bitcoin's 1 megabyte block limit caused a project fork.
+比特币区块1MB的限制导致了项目的分歧
 
 479
 00:26:32,430 --> 00:26:37,370
-There was basically a civil war in Bitcoin over whether or not it was okay
+无论比特币1M的大小改变还是不改变
 
 480
 00:26:38,270 --> 00:26:41,350
-to make blocks stay at this 1 megabyte limit.
+都会导致比特币的内战
 
 481
 00:26:41,350 --> 00:26:44,690
-It still rages on to this day. It's still a holy war
+这场内战还在如火如荼地进行着
 
 482
 00:26:44,690 --> 00:26:48,930
-and this is something that Monero has avoided thus far.
+这也是门罗币迄今为止一直避免的
 
 483
 00:26:48,930 --> 00:26:52,330
-Its solution to this is to use a adaptive block size
+解决办法是使用可变大小的区块
 
 484
 00:26:52,330 --> 00:26:57,250
-in which the maximum block size of a Monero block is flexible
+门罗币区块大小是可调节的
 
 485
 00:26:57,250 --> 00:27:02,410
-and it can organically expand or shrink along with demand.
+可以根据需求扩大或者缩小
 
 486
 00:27:02,410 --> 00:27:04,930
-With, of course, provisions in there
+当然也是有一些规定的
 
 487
 00:27:04,930 --> 00:27:09,490
-to prevent the system from getting gamed.
+防止系统被利用
 
 488
 00:27:10,130 --> 00:27:13,370
-And there's ongoing research to reduce the transaction size.
+人们一直进行着研究减小交易的大小
 
 489
 00:27:13,370 --> 00:27:15,150
-There's bulletproofs that went in recently
+最近防弹出现了
 
 490
 00:27:15,150 --> 00:27:19,910
-that reduce transaction sizes by a factor of 10, that went in.
+交易大小被减少了10倍
 
 491
 00:27:19,910 --> 00:27:26,450
-And overnight the transaction fees for transacting Monero went down by a factor of 10
+一夜间门罗币交易费减少了10倍
 
 492
 00:27:26,450 --> 00:27:32,610
-because the transaction fee is based on the kilobyte size of the transaction.
+因为交易费是由交易大小决定的
 
 493
 00:27:33,410 --> 00:27:36,570
-Moving on to fungibility and privacy.
+进一步的可替代性与私密性
 
 494
 00:27:37,050 --> 00:27:38,830
-Bitcoin is transparent.
+比特币是透明的
 
 495
 00:27:39,270 --> 00:27:43,790
-If you are new to crypto you might be under the impression
+如果你新接触加密货币，你可能对匿名持有
 
 496
 00:27:43,790 --> 00:27:46,990
-that if you have Bitcoin you're anonymous.
+匿名持有比特币
 
 497
 00:27:46,990 --> 00:27:49,250
-It's this "anonymous magic internet money"
+你可能听说过
 
 498
 00:27:49,250 --> 00:27:51,250
-that you might have heard about.
+比特币是匿名的网络货币
 
 499
 00:27:51,250 --> 00:27:53,250
-Nothing could be further from the truth --
+事实远非如此 --
 
 500
 00:27:53,250 --> 00:27:58,070
-the popular press continues to push this misleading narrative.
+报导一直在误导性的叙述
 
 501
 00:27:58,070 --> 00:28:00,050
-Bitcoin is completely transparent
+比特币是完全透明的
 
 502
 00:28:00,050 --> 00:28:02,750
-and if you read the Bitcoin white paper, it's all there.
+如果你看比特币的白皮书，也是这样写的
 
 503
 00:28:02,750 --> 00:28:08,630
-It's specified that the sender, the receiver and how much got sent
+详细说明了发起人，接收人，交易金额
 
 504
 00:28:08,630 --> 00:28:14,010
-is recorded in plaintext and recorded in the blockchain.
+被记录在未加密的文档与区块链中
 
 505
 00:28:14,010 --> 00:28:17,750
-Which, because it has all this proof-of-work up behind it --
+因为所有的工作量证明在它后面 --
 
 506
 00:28:17,750 --> 00:28:20,750
-remember what I was saying about each transaction in the block
+记得我刚才说的区块里的交易吗？
 
 507
 00:28:20,750 --> 00:28:26,690
-has a hash that makes it a very rare and unique set of data,
+散列使得这个数据组变得很稀有很特别
 
 508
 00:28:26,970 --> 00:28:31,170
-it's the multiple of 1 million atoms thing, right --
+是原子的的一百万倍，记得吗--
 
 509
 00:28:31,170 --> 00:28:36,750
-basically, these transparent details are written and etched into that blockchain forever.
+基本上这些透明的细节会被永远写在区块链里
 
 510
 00:28:36,750 --> 00:28:40,350
-There is no escaping that
+无法避免的是
 
 511
 00:28:40,350 --> 00:28:45,290
-it's completely incompatible, for example, with European privacy law, the GDPR.
+它并不兼容，比如说欧洲的隐私法，欧盟通用数据保护条例（GDPR）
 
 512
 00:28:45,290 --> 00:28:47,310
-Which has this "right to be forgotten"
+有“被遗忘的权力”
 
 513
 00:28:47,310 --> 00:28:50,510
-that is totally non-existent in Bitcoin.
+这在比特币中是完全不存在的
 
 514
 00:28:50,510 --> 00:28:54,230
-Once a transaction gets put into the Bitcoin blockchain it's there.
+一旦交易进入比特币区块链中，他就在那里了
 
 515
 00:28:54,230 --> 00:28:56,470
-It's there forever.
+永远在那里了
 
 516
 00:28:56,470 --> 00:29:00,270
-And the only thing that is not
+唯一的一个
 
 517
 00:29:00,270 --> 00:29:03,590
-totally transparent is that the Bitcoin address
+不透明的就是比特币的地址了
 
 518
 00:29:03,590 --> 00:29:07,490
-is just a hex string - it's a string.
+-是一串十六进制的字符
 
 519
 00:29:07,490 --> 00:29:08,270
-I mean,
+其实
 
 520
 00:29:08,270 --> 00:29:10,250
-when you come down to it, everything's a hex string --
+归根结底每件事情都可以是十六进制的字符 --
 
 521
 00:29:10,250 --> 00:29:15,550
-but the Bitcoin address is a sequence of letters and numbers that looks anonymous.
+比特币的地址是字母与数字的排列，看起来是匿名的
 
 522
 00:29:15,550 --> 00:29:20,030
-But once that gets associated to your name and face,
+可是一旦将它与你的名字，脸联系在一起
 
 523
 00:29:20,030 --> 00:29:22,270
