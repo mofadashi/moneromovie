@@ -2088,275 +2088,275 @@ CDC是一种
 
 523
 00:29:20,030 --> 00:29:22,270
-that association, that metadata,
+所有的联系，源代码
 
 524
 00:29:24,070 --> 00:29:26,890
-that marriage between a Bitcoin account number and your identity,
+比特币账号与你的个人信息·
 
 525
 00:29:26,890 --> 00:29:28,890
-that doesn't change
+不会再改变
 
 526
 00:29:29,170 --> 00:29:32,190
-because the blockchain is etched in stone forever.
+因为区块链会永远存在
 
 527
 00:29:32,190 --> 00:29:34,070
-And it's constantly growing.
+不断生长
 
 528
 00:29:34,070 --> 00:29:38,930
-The job of the people trying to identify and "dox" everyone
+识别搜索每个人的的工作就好像是
 
 529
 00:29:38,930 --> 00:29:40,990
-is - it's just a waiting game.
+等待游戏
 
 530
 00:29:40,990 --> 00:29:42,930
-You have this blockchain every day.
+你每天都遇到这个区块链
 
 531
 00:29:42,930 --> 00:29:44,930
-You get some little piece of information:
+你得到一点信息：
 
 532
 00:29:44,930 --> 00:29:51,490
-"Oh, you know, Joe in Leipzig signed up with (an) exchange".
+你知道莱比锡城的乔签约了吗
 
 533
 00:29:51,830 --> 00:29:54,930
-Now their identity information is associated with this.
+现在他们的识别信息与此相关联
 
 534
 00:29:55,190 --> 00:29:57,750
-Basically, this metadata just kind of
+基本上源代码会
 
 535
 00:29:57,750 --> 00:30:02,050
-continues to gather on this blockchain until you have a situation
+持续汇集到这个区块链上，知道情况改变
 
 536
 00:30:02,050 --> 00:30:04,970
-which is actually much worse than in Fiat.
+这比法定货币还糟糕
 
 537
 00:30:04,970 --> 00:30:11,790
-When you have a Fiat bank account you do not expect that your bank is going to post your monthly statement
+当你有一个银行账号的时候你不会想到银行会把你每月的
 
 538
 00:30:11,790 --> 00:30:15,990
-up on the bulletin board outside the bank for everybody to see.
+银行帐单贴在银行外的板子上供人观看
 
 539
 00:30:16,650 --> 00:30:19,670
-But that is exactly the situation in Bitcoin
+但比特币就是这么做的
 
 540
 00:30:19,670 --> 00:30:22,990
-and it's not just the people out in your neighborhood who can see it.
+并不是只有你的邻居们可以看到
 
 541
 00:30:22,990 --> 00:30:25,830
-It's everybody. Everybody in the world can see
+是每个人，全世界每个人都可以看到
 
 542
 00:30:26,190 --> 00:30:29,470
-who sent what to who and when.
+何时何地何人何事
 
 543
 00:30:30,170 --> 00:30:34,670
-The unfortunate consequence of this, is that
+导致这个结果是
 
 544
 00:30:34,670 --> 00:30:37,250
-Bitcoins have a history behind them.
+因为比特币背后有一段故事
 
 545
 00:30:37,570 --> 00:30:41,110
-Remember that in Bitcoin, every Bitcoin in existence
+还记得在比特币存在
 
 546
 00:30:41,110 --> 00:30:44,810
-first came into being as a reward that went to a miner.
+初期是对矿工的奖励
 
 547
 00:30:44,870 --> 00:30:50,250
-Once the miner gets that Bitcoin and then they spend it, it starts circulating in the Bitcoin economy.
+他们得到比特币之后花了他才开始了比特币经济圈
 
 548
 00:30:50,250 --> 00:30:54,410
-But because the blockchain is transparent, it's totally "see-through".
+因为区块链是透明的，完全可以看到
 
 549
 00:30:54,410 --> 00:30:59,370
-The entire history of every single Bitcoin now in existence can be traced back
+每一个比特币从被开采到后来的
 
 550
 00:30:59,370 --> 00:31:03,330
-to this person all the way back to when it was mined.
+所有历史纪录
 
 551
 00:31:03,330 --> 00:31:07,250
-It's as if you have a 10 euro banknote
+就好像你有10欧元的纸币
 
 552
 00:31:07,250 --> 00:31:11,250
-and on the back of that 10 euro banknote you see a nice list showing
+在纸币的背面你看到一个表格
 
 553
 00:31:11,250 --> 00:31:14,910
-everyone before you who owned that.
+显示的是所有使用过这张纸币的人
 
 554
 00:31:14,970 --> 00:31:18,330
-What could possibly be the negative consequences of this?
+这样做的有什么危害呢？
 
 555
 00:31:18,330 --> 00:31:22,030
-How about innocent people getting falsely accused
+无辜的人面临不实指控
 
 556
 00:31:22,030 --> 00:31:27,430
-because they happen to have received money from somebody who unbeknownst to them
+因为他们收到了陌生人的钱
 
 557
 00:31:27,430 --> 00:31:31,550
-was involved in something that was not very good.
+这些陌生人涉及到了某些不好的事情中
 
 558
 00:31:31,590 --> 00:31:33,210
-This is happening in Bitcoin.
+这种情况在比特币中有发生
 
 559
 00:31:34,130 --> 00:31:38,450
-There's a reputation in Bitcoin that transfers as well as value
+比特币在转账与价值上的声望
 
 560
 00:31:39,210 --> 00:31:42,350
-and that is what is profoundly disturbing about having this.
+让人对透明度深感不安
 
 561
 00:31:42,350 --> 00:31:44,270
-And I call it a surveillance coin.
+我叫它监视硬币
 
 562
 00:31:44,330 --> 00:31:47,090
-In a surveillance coin, it's not just value that transmits --
+在监视货币上，不光是传输的价值--
 
 563
 00:31:47,090 --> 00:31:49,250
-it's also reputation. Which means
+也是声誉
 
 564
 00:31:49,250 --> 00:31:51,970
-if you're accepting money from somebody,
+也就是说你从某人处收到钱
 
 565
 00:31:51,970 --> 00:31:56,870
-you're also accepting their life history.
+同时接收的还有他的生活史
 
 566
 00:31:56,870 --> 00:32:00,550
-It's coming to you too. It's not just value.
+不只是钱
 
 567
 00:32:00,970 --> 00:32:03,490
-In contrast, Monero is fungible.
+相反的是，门罗币是可取代的
 
 568
 00:32:03,490 --> 00:32:06,650
-Fungible just means that every unit of currency is
+这里可取代指的是，每个货币单位
 
 569
 00:32:06,650 --> 00:32:09,490
-indistinguishable from the other units.
+是不能被另外的辨别
 
 570
 00:32:09,790 --> 00:32:13,610
-If I have 10 Monero, you have 10 Monero and then
+如果我有10个门罗币，你有10个门罗币
 
 571
 00:32:13,610 --> 00:32:18,470
-we both trade the 10 Monero to other people, they still look like the 10 Monero.
+我们都与其他人做了门罗币的交易，门罗币仍然是那10个
 
 572
 00:32:18,470 --> 00:32:22,550
-There's no history. It works just like a cash bill.
+没有任何使用历史，就像是纸币一样
 
 573
 00:32:22,550 --> 00:32:25,890
-It works just you think cash should work.
+跟你想象中纸币是一样的
 
 574
 00:32:25,890 --> 00:32:29,450
-And it does this by adding three technologies
+门罗币为了达到这点增加了3个技术
 
 575
 00:32:29,450 --> 00:32:33,950
-on top of what Bitcoin does that preserve privacy.
+在比特币基础上保护了隐私
 
 576
 00:32:33,950 --> 00:32:35,810
-One is ring signatures.
+其中之一是环签名
 
 577
 00:32:35,810 --> 00:32:37,370
-In ring signatures,
+在环签名里，
 
 578
 00:32:37,370 --> 00:32:44,170
-the sender of funds is lined up along with 10 other senders of funds
+资金的发送人与其他发送人排成一列
 
 579
 00:32:44,170 --> 00:32:50,670
-and the only thing that you know happened in that transaction is one out of those 11 people sent money.
+你唯一知道的事情是十一个人中的其中一人完成了交易
 
 580
 00:32:50,670 --> 00:32:53,070
-It's as if every time you spend money,
+就好像每次你花钱时
 
 581
 00:32:53,070 --> 00:32:57,870
-now you have 10 friends or 10 random people, 10 decoys
+有十个你的朋友或是随机的人，十个诱饵
 
 582
 00:32:57,930 --> 00:33:02,250
-and all that you know, cryptographically, is one of the 11 have sent the money.
+你所知道的只是十一个人中的其中一个人发款了
 
 583
 00:33:02,330 --> 00:33:04,490
-That protects the sender's identity.
+这么做保护了发起人的身份
 
 584
 00:33:04,490 --> 00:33:06,150
-How about the receivers identity?
+那接收人的身份呢？
 
 585
 00:33:06,150 --> 00:33:12,270
-Well, the receiver's Monero account does not appear unencrypted on the Monero blockchain.
+接收人的门罗币账户是已加密的形式出现在区块链的
 
 586
 00:33:12,850 --> 00:33:17,390
-A one-time-use address is what gets put on the blockchain
+一次性的地址被存放在区块链里
 
 587
 00:33:17,390 --> 00:33:20,310
-so that protects the recipients' privacy.
+由此来保护接收人的隐私
 
 588
 00:33:20,310 --> 00:33:23,350
-How about the amount that gets sent? Because there are
+那发送数量怎么办？
 
 589
 00:33:23,350 --> 00:33:26,210
-attacks that can be done by knowing,
+是可以根据观察你的行为模式
 
 590
 00:33:26,210 --> 00:33:30,830
-kind of observing your pattern of how much you spend.
+k来判断出来你花费了多少钱的
 
 591
 00:33:31,530 --> 00:33:34,490
